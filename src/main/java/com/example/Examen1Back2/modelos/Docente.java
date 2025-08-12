@@ -15,6 +15,11 @@ public class Docente {
     public Docente() {
     }
 
+    public Docente(Integer id, String especialidad) {
+        this.id = id;
+        this.especialidad = especialidad;
+    }
+
     public Integer getId() {
         return id;
     }
