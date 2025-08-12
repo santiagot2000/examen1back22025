@@ -1,6 +1,9 @@
 package com.example.Examen1Back2.modelos;
+
 import com.example.Examen1Back2.Ayudas.TipoUsuario;
+
 import jakarta.persistence.*;
+
 
 @Entity //Indica que esta clase es una entidad
 @Table(name = "usuarios") //Nombre de la tabla en la base de datos
